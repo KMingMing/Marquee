@@ -13,6 +13,8 @@
 		9000A0D61F52F19C00AFD0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9000A0D41F52F19C00AFD0BC /* Main.storyboard */; };
 		9000A0D81F52F19C00AFD0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9000A0D71F52F19C00AFD0BC /* Assets.xcassets */; };
 		9000A0DB1F52F19C00AFD0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9000A0D91F52F19C00AFD0BC /* LaunchScreen.storyboard */; };
+		9000A0E41F52F1FA00AFD0BC /* MarqueeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9000A0E31F52F1FA00AFD0BC /* MarqueeScrollView.m */; };
+		9000A0E61F52FD7A00AFD0BC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9000A0E51F52FD7A00AFD0BC /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		9000A0D71F52F19C00AFD0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9000A0DA1F52F19C00AFD0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9000A0DC1F52F19C00AFD0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9000A0E21F52F1FA00AFD0BC /* MarqueeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeScrollView.h; sourceTree = "<group>"; };
+		9000A0E31F52F1FA00AFD0BC /* MarqueeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeScrollView.m; sourceTree = "<group>"; };
+		9000A0E51F52FD7A00AFD0BC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		9000A0BF1F52F19C00AFD0BC = {
 			isa = PBXGroup;
 			children = (
+				9000A0E51F52FD7A00AFD0BC /* README */,
 				9000A0CA1F52F19C00AFD0BC /* Marquee */,
 				9000A0C91F52F19C00AFD0BC /* Products */,
 			);
@@ -58,6 +64,8 @@
 		9000A0CA1F52F19C00AFD0BC /* Marquee */ = {
 			isa = PBXGroup;
 			children = (
+				9000A0E21F52F1FA00AFD0BC /* MarqueeScrollView.h */,
+				9000A0E31F52F1FA00AFD0BC /* MarqueeScrollView.m */,
 				9000A0CE1F52F19C00AFD0BC /* AppDelegate.h */,
 				9000A0CF1F52F19C00AFD0BC /* AppDelegate.m */,
 				9000A0D11F52F19C00AFD0BC /* ViewController.h */,
@@ -138,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9000A0E61F52FD7A00AFD0BC /* README in Resources */,
 				9000A0DB1F52F19C00AFD0BC /* LaunchScreen.storyboard in Resources */,
 				9000A0D81F52F19C00AFD0BC /* Assets.xcassets in Resources */,
 				9000A0D61F52F19C00AFD0BC /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9000A0E41F52F1FA00AFD0BC /* MarqueeScrollView.m in Sources */,
 				9000A0D31F52F19C00AFD0BC /* ViewController.m in Sources */,
 				9000A0D01F52F19C00AFD0BC /* AppDelegate.m in Sources */,
 				9000A0CD1F52F19C00AFD0BC /* main.m in Sources */,
@@ -275,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RF3GH93JBS;
 				INFOPLIST_FILE = Marquee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.kzl.Marquee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RF3GH93JBS;
 				INFOPLIST_FILE = Marquee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.kzl.Marquee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
